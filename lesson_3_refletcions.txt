@@ -1,3 +1,8 @@
 Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
 
 Controlando manualmente posso ter um controle maior sobre o projeto.
+
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+
+Clones são literalmete clones de repositórios que irão para nossa máquina, bifurcação é um tipo de clonagem mas no próprio servidor do github, branches são níveis de um repositório.
+Usaria bifurcações quando quiser trabalhar diretamente associado ao repositorio originale branches para introduzir novas ideias.
