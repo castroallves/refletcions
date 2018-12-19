@@ -1,7 +1,34 @@
-O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+- O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 
 É criado um arquivo .git, precisamos fazer isso para que o Git consiga adminstrar os commits.
 
-Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+- Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
 A área de preparação é temporária
+
+
+- Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+A area de preparaçao nos permite escolher os arquivos que serao adicionados a um commit, assim cada commit tera uma unidade logica.
+
+
+- Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Quando queremos criar divisões de tipos de alterações que serão feitas, seriam organizadas então como em pastas.
+
+
+- Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Os diagramas nos dão uma ideia grafica de como os branches estão dispostos pois isso não é possível a partir da linha de comando.
+
+
+- Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+
+Todos commits do segundo branch são mesclados no primeiro, o resultado da mesclagem se torna o novo cabeçalho do branch atual. O diagrama mostra que os branches mesclados tem dois pais, são seus cabeçalhos antes da mesclagem. 
+
+- Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+Pros: reduz o trabalho, principalmente quando é uma mesclagem fácil
+Contras: Pode acontecer quando duas pessoas estão trabalhando num mesmo repositório e gerar um conflito
