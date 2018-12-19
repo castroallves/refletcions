@@ -1,1 +1,3 @@
+Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
 
+Controlando manualmente posso ter um controle maior sobre o projeto.
